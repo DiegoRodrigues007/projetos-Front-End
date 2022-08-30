@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+.face-logo {
+  width: 220px;
+}
+
+#container {
+  display: flex;
+  max-width: 2000px;
+  align-items: center;
+  position: absolute;
+  padding: 72px 0px 112px;
+}
+
+main {
+  margin: 0px 170px;
+  padding: 20px 0px;
+}
+
+.logo-face {
+  display: inline-block;
+  position: relative;
+  width: 600px;
+  bottom: 60px;
+}
+
+.logo-face h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+form {
+  display: inline-block;
+  max-width: 396px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 40px 10px 0px;
+  padding: 28px;
+  padding-bottom: 50px;
+}
+
+.form input {
+  padding: 14px 16px;
+  width: 350px;
+  border: 1.5px solid #dadde1;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.form .button-iniciar {
+  display: flex;
+  padding: 5px;
+  width: 396px;
+  background-color: #166fe5;
+  border-radius: 5px;
+  border: 1px solid #166fe5;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+button p {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.button-green {
+  background-color: #41d26a;
+  display: inline-flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid #41d26a;
+  font-weight: 700;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container-botao {
+  position: absolute;
+  display: inline-flex;
+  align-content: center;
+}
+
+.button-green {
+  position: relative;
+  display: inline-flex;
+  margin: auto;
+  align-items: center;
+  bottom: 24px;
+  left: 90px;
+  justify-content: center;
+}
+.form .button-blue {
+  display: block;
+  color: #6277f3;
+  text-decoration: none;
+  text-align: center;
+}
+
+.linha {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #dadde1;
+}
+
+.text a {
+  color: black;
+  text-decoration: none;
+}
+.text {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.text p {
+  font-size: 15px;
+  text-align: justify;
+}
